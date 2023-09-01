@@ -1,0 +1,295 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    display: block;
+}
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.div{
+    display: flex;
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main-headline{
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 60px;
+    text-align: center;
+    line-height: 1.07;
+    color: #ffffff;
+    max-width: 496px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-list{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+    text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nav:hover{
+    color: #404bbf;
+}
+
+.nav:focus{
+    color: #404bbf;
+}
+
+.address{
+    font-style: normal;
+}
+
+.conts-menu{
+    display: flex;
+    gap: 40px;
+}
+
+.list{
+    margin-right: 40px;
+}
+
+.conts{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+
+.conts:hover{
+    color: #404bbf;
+}
+
+.conts:focus{
+    color: #404bbf;
+}
+
+.order{
+    background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+.brand{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.list-brand{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.brand .headline{
+    text-align: left;
+}
+
+.brand .medium{
+    text-align: left;
+}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.list-brand-item{
+    margin-right: 24px;
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.list-brand-item:last-child{
+    margin-right: 0;
+}
+
+.team{
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.list-team{
+    display: flex;
+    gap: 24px;
+}
+
+.teammates{
+    background-color: #FFFFFF;
+}
+
+.teammates{
+    flex-basis: calc((100% - 72px) 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.teammate-container{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.section-headline{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    line-height: 1.11;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.headline{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    line-height: 1.2; 
+    margin-bottom: 8px;
+}
+
+.portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.list-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.list-portfolio-item{
+    flex-basis: calc((100% - 48px)/3);
+}
+
+.portfolio-container{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.small{
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+}
+
+.medium{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+    text-align: center;
+}
+
+.button{
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4d5ae5;
+    display:block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button:hover{
+    background-color: #404BBF;
+}
+
+.button:focus{
+    background-color: #404BBF;
+}
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+header .logo{
+    margin-right:76px;
+}
+
+header .logo .partoflogo{
+    color: #2e2f42;
+}
+
+.footer {
+    background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer .logo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+footer .logo .partoflogo{
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+footer .info{
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+}
