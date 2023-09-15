@@ -260,10 +260,13 @@ img{
     padding: 0;
 }
 
+.list-portfolio .medium:hover{
+    transform: translateY(0%);
+}
+
 .list-portfolio-item{
     flex-basis: calc((100% - 48px)/3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transform: translateY(0%);
 }
 
 .list-portfolio-item:hover{
