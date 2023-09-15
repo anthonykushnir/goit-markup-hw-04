@@ -72,9 +72,6 @@ img{
     text-decoration: none;
     padding-top: 24px;
     padding-bottom: 24px;
-}
-
-.nav-list :not(:first-child){
     color:#2e2f42;
 }
 
@@ -86,12 +83,12 @@ img{
     color: #404bbf;
 }
 
-.nav-list :first-child{
+.nav-list:first-child{
     position: relative;
     color: #404bbf;
 }
 
-.nav-list :first-child::after{
+.nav-list:first-child::after{
     content: '';
     position: absolute;
     left: 0;
