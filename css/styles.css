@@ -3,6 +3,7 @@ body{
     font-size: 16px;
     color: #434455;
     background-color: #FFFFFF;
+    max-width: 1440px;
 }
 
 h1,
@@ -152,7 +153,7 @@ img{
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
