@@ -105,12 +105,12 @@ img{
     color: #404bbf;
 }
 
-.nav-list :first-child{
+.studio{
     position: relative;
     color: #404bbf;
 }
 
-.nav-list :first-child ::after{
+.studio ::after{
     content: '';
     position: absolute;
     left: 0;
