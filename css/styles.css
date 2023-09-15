@@ -260,7 +260,7 @@ img{
     padding: 0;
 }
 
-.list-portfolio .medium:hover{
+.list-portfolio:hover .medium{
     transform: translateY(0%);
 }
 
