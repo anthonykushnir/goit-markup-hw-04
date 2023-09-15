@@ -64,21 +64,6 @@ img{
     padding: 0;
 }
 
-.nav-list :first-child{
-    position: relative;
-    color: #404bbf;
-}
-
-.nav-list :first-child::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404BBF;
-    border-radius: 2px;
-}
-
 .nav-list{
     font-weight: 500;
     font-size: 16px;
@@ -96,6 +81,21 @@ img{
 
 .nav-list:focus{
     color: #404bbf;
+}
+
+.nav-list :first-child{
+    position: relative;
+    color: #404bbf;
+}
+
+.nav-list :first-child::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404BBF;
+    border-radius: 2px;
 }
 
 .address{
