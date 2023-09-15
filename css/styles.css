@@ -110,7 +110,7 @@ img{
     color: #404bbf;
 }
 
-.studio ::after{
+.studio::after{
     content: '';
     position: absolute;
     left: 0;
