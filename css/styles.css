@@ -252,7 +252,6 @@ img{
 .socials-list-item{
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-list-link{
@@ -263,6 +262,10 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.team .socials-list-item{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team .socials-list-item :hover{
@@ -458,6 +461,10 @@ footer .logo .partoflogo{
 
 .footer .socials-list{
     gap: 16px;
+}
+
+.footer .socials-list-item{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .footer .socials-list-item :hover{
