@@ -252,10 +252,6 @@ img{
     gap: 24px;
 }
 
-.footer .socials-list{
-    gap: 16px;
-}
-
 .socials-list-item{
     width: 40px;
     height: 40px;
@@ -275,16 +271,9 @@ img{
 .team .socials-list-item :hover{
     background-color: #404bbf;
 }
-.footer .socials-list-item :hover{
-    background-color: #31d0aa;
-}
 
 .team .socials-list-item :focus{
     background-color: #404bbf;
-}
-
-.footer .socials-list-item :focus{
-    background-color: #31d0aa;
 }
 
 .socials-svg{
@@ -468,4 +457,16 @@ footer .logo .partoflogo{
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+}
+
+.footer .socials-list{
+    gap: 16px;
+}
+
+.footer .socials-list-item :hover{
+    background-color: #31d0aa;
+}
+
+.footer .socials-list-item :focus{
+    background-color: #31d0aa;
 }
