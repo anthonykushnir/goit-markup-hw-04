@@ -202,6 +202,17 @@ img{
     margin-right: 0;
 }
 
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    
+}
+
 .team{
     background-color: #F4F4FD;
     padding-top: 120px;
