@@ -245,7 +245,14 @@ img{
 .socials-list{
     display:flex;
     justify-content: center;
+}
+
+.team .socials-list{
     gap: 24px;
+}
+
+.footer .socials-list{
+    gap: 16px;
 }
 
 .socials-list-item{
@@ -264,12 +271,19 @@ img{
     justify-content: center;
 }
 
-.socials-list-item :hover{
+.team .socials-list-item :hover{
+    background-color: #404bbf;
+}
+.footer .socials-list-item :hover{
+    background-color: #31d0aa;
+}
+
+.team .socials-list-item :focus{
     background-color: #404bbf;
 }
 
-.socials-list-item :focus{
-    background-color: #404bbf;
+.footer .socials-list-item :focus{
+    background-color: #31d0aa;
 }
 
 .socials-svg{
