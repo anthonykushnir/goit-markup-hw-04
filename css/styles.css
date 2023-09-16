@@ -269,7 +269,7 @@ img{
     background-color: #404bbf;
 }
 
-.team .socials-list-link :focus{
+.team .socials-list-item :focus{
     background-color: #404bbf;
 }
 
@@ -464,6 +464,6 @@ footer .logo .partoflogo{
     background-color: #31d0aa;
 }
 
-.footer .socials-list-link :focus{
+.footer .socials-list-item :focus{
     background-color: #31d0aa;
 }
