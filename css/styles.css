@@ -233,8 +233,9 @@ img{
     box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.teammates .socials-list{
+.team .socials-list{
     margin-top: 8px;
+    gap: 24px;
 }
 
 .teammate-container{
@@ -246,10 +247,6 @@ img{
 .socials-list{
     display:flex;
     justify-content: center;
-}
-
-.team .socials-list{
-    gap: 24px;
 }
 
 .socials-list-item{
@@ -272,7 +269,7 @@ img{
     background-color: #404bbf;
 }
 
-.team .socials-list-item :focus{
+.team .socials-list-link :focus{
     background-color: #404bbf;
 }
 
@@ -467,6 +464,6 @@ footer .logo .partoflogo{
     background-color: #31d0aa;
 }
 
-.footer .socials-list-item :focus{
+.footer .socials-list-link :focus{
     background-color: #31d0aa;
 }
